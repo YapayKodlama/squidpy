@@ -1,19 +1,19 @@
 import numpy
 import cv2
 
-img = cv2.imread("resimler/squid.jpg")
+img = cv2.imread("squid.jpg")
 imgri = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-aranansemsi = cv2.imread("resimler/semsiye.jpg")
+aranansemsi = cv2.imread("semsiye.jpg")
 aranangrisemsi = cv2.cvtColor(aranansemsi, cv2.COLOR_BGR2GRAY)
 
-aranancember = cv2.imread("resimler/cember.jpg")
+aranancember = cv2.imread("cember.jpg")
 aranangricember = cv2.cvtColor(aranancember, cv2.COLOR_BGR2GRAY)
 
-arananucgen = cv2.imread("resimler/ucgen.jpg")
+arananucgen = cv2.imread("ucgen.jpg")
 aranangriucgen = cv2.cvtColor(arananucgen, cv2.COLOR_BGR2GRAY)
 
-arananyildiz = cv2.imread("resimler/yildiz.jpg")
+arananyildiz = cv2.imread("yildiz.jpg")
 aranangriyildiz = cv2.cvtColor(arananyildiz, cv2.COLOR_BGR2GRAY)
 
 def semsi():
@@ -96,4 +96,4 @@ cv2.imshow("Squid",img)
 cv2.waitKey(3000)
 yildiz()
 cv2.imshow("Squid",img)
-cv2.waitKey(3000)
+#cv2.waitKey(3000)
